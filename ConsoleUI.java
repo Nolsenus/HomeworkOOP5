@@ -8,10 +8,6 @@ public class ConsoleUI implements ContactBookUI {
         in = new Scanner(System.in);
     }
 
-    public void close() {
-        in.close();
-    }
-
     @Override
     public void showMenu() {
         System.out.println("Команды:");

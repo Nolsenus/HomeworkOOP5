@@ -153,7 +153,7 @@ public class App {
                     isGoodCommand = true;
                     executeCommand(command);
                 } catch (NotACommandException e) {
-                    System.out.println(e.getMessage());
+                    cbui.showString(e.getMessage());
                 }
             }
         }
